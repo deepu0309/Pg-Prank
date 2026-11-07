@@ -1,0 +1,6 @@
+{
+  "name": "Sadashiv PG Diwali Reimbursement Portal",
+  "description": "Official Sadashiv PG Diwali food reimbursement & outside mess compensation portal run by Sunny Bhaiya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #0b0716;
+  }
+  
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+@keyframes diya-flicker {
+  0%, 100% { opacity: 0.9; transform: scale(1) translateY(0); }
+  50% { opacity: 1; transform: scale(1.08) translateY(-1px); filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.9)); }
+}
+
+.animate-diya {
+  animation: diya-flicker 2s ease-in-out infinite;
+}
+
+@keyframes sparkle-twinkle {
+  0%, 100% { opacity: 0.2; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+.animate-sparkle {
+  animation: sparkle-twinkle 3s ease-in-out infinite;
+}
