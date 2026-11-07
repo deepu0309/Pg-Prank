@@ -197,8 +197,11 @@ export const FestiveBanner: React.FC<FestiveBannerProps> = ({ onStartClaim, bann
               </div>
               <div>
                 <div className="text-[11px] text-amber-300/70 font-medium">Claims Approved Today</div>
-                <div className="text-lg font-bold font-mono text-amber-300 tabular-nums">
-                  52 / 60 Rooms
+                <div className="text-xs sm:text-sm font-bold text-rose-300 leading-snug mt-0.5">
+                  &ldquo;Didn&apos;t had time for Poor people will see tomorrow&rdquo;
+                </div>
+                <div className="text-[10px] text-amber-400/60 font-mono mt-0.5">
+                  — Sunny Bhaiya
                 </div>
               </div>
             </div>
